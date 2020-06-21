@@ -16,7 +16,6 @@ The resulting binary can be found in /bin.
 ### Repo Structure
 roomExplorer<br>
 &nbsp;&nbsp;|_ bin/   &nbsp;&nbsp;&nbsp;&nbsp;...binary files<br>
-&nbsp;&nbsp;|_ doc/   &nbsp;&nbsp;&nbsp;...documentation<br>
 &nbsp;&nbsp;|_ inc/   &nbsp;&nbsp;&nbsp;&nbsp;...header files<br>
 &nbsp;&nbsp;|_ proj/  &nbsp;&nbsp;&nbsp;...build files<br>
 &nbsp;&nbsp;|_ src/   &nbsp;&nbsp;&nbsp;&nbsp;...source files<br>
