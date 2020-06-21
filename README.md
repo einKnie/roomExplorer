@@ -14,7 +14,7 @@ To compile, cd into the repo and call <i>make -C ./proj</i>
 The resulting binary can be found in /bin.
 
 ### Repo Structure
-log<br>
+roomExplorer<br>
 &nbsp;&nbsp;|_ bin/   &nbsp;&nbsp;&nbsp;&nbsp;...binary files<br>
 &nbsp;&nbsp;|_ doc/   &nbsp;&nbsp;&nbsp;...documentation<br>
 &nbsp;&nbsp;|_ inc/   &nbsp;&nbsp;&nbsp;&nbsp;...header files<br>
