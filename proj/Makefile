@@ -1,7 +1,7 @@
 BASE        = ..
 SRC_DIR     = $(BASE)/src
 INC_DIR     = $(BASE)/inc
-LIB_DIR     = $(BASE)/../libraries/log
+LIB_DIR     = $(BASE)/../Logger
 TARGET_DIR  = $(BASE)/bin
 OBJ_DIR     = $(BASE)/obj
 TARGET      = maze
@@ -31,5 +31,8 @@ $(OBJ_DIR):
 	echo $(OBJ_DIR)
 	mkdir -p $(OBJ_DIR)
 
-maze : $(OBJ)
+$(TARGET_DIR):
+	mkdir -p $(TARGET_DIR)
+
+maze : $(OBJ) | $(TARGET_DIR)
 	$(CC) -o $(TARGET_DIR)/$(TARGET) $^ $(CFLAGS)
