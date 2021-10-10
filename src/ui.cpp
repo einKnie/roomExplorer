@@ -200,7 +200,7 @@ void MazeUI::showScreen(int type, void *data) {
     if (!data) return;
       createInvField((unsigned int*)data);
       sprintf(descr,    "Inventory");
-      sprintf(controls, "Close enter%sQuit q", m_sep);
+      sprintf(controls, "Close i%sQuit q", m_sep);
       sprintf(infobar,  "health: %3d", m_player->getHealth());
       sprintf(infobar2, "gold: %3d", m_player->getGold());
       field = m_inventoryField;

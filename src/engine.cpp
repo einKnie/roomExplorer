@@ -228,7 +228,7 @@ int MazeEngine::showInv() {
     m_ui->showScreen(EScreenInv, &idx);
     act = getInput();
     switch (act) {
-      case ENextLevel:  show = false; break;
+      case EInventory: show = false; break;
       case EQuit:       return 0;
       case EScrollDown: ++idx; break;
       case EScrollUp:   if (idx) --idx; break;
