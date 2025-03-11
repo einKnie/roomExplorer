@@ -1,7 +1,7 @@
 BASE        = ..
 SRC_DIR     = $(BASE)/src
 INC_DIR     = $(BASE)/inc
-LIB_DIR     = $(BASE)/../Logger
+LIB_DIR     = $(BASE)/../logger
 TARGET_DIR  = $(BASE)/bin
 OBJ_DIR     = $(BASE)/obj
 TARGET      = maze
